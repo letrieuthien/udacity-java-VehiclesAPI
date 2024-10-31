@@ -7,7 +7,6 @@ import org.springframework.boot.SpringApplication;
 import com.udacity.pricing.repository.PriceRepository;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableEurekaClient

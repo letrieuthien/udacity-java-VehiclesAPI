@@ -31,7 +31,7 @@ public class Swagger {
             "This API provides Vehicles information.",
             "v0.1",
             "http://www.udacity.com/tos",
-            new Contact("Edson A. Soares", "www.udacity.com", "myeaddress@e-mail.com"),
+            new Contact("Le Trieu Thien", "www.udacity.com", "ltthien001@gmail.com"),
             "License",
             "https://github.com/edson-a-soares/java_developer_nanodegree/tree/main/microservices/LISCENSE", Collections.emptyList()
         );

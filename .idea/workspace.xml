@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b058b984-505d-46ad-ad58-3d74ee474d05" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    <list default="true" id="b058b984-505d-46ad-ad58-3d74ee474d05" name="Changes" comment="create project">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqlDataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing/src/main/java/com/udacity/pricing/PricingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pricing/src/main/java/com/udacity/pricing/PricingServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pricing/src/test/java/com/udacity/pricing/repository/PriceRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pricing/src/test/java/com/udacity/pricing/repository/PriceRepositoryTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/domain/Condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/domain/Condition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/infrastructure/client/prices/PriceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/infrastructure/client/prices/PriceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/infrastructure/docs/Swagger.java" beforeDir="false" afterPath="$PROJECT_DIR$/vehicles/src/main/java/com/udacity/vehicles/infrastructure/docs/Swagger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +25,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/letrieuthien/udacity-java-VehiclesAPI.git&quot;,
+    &quot;accountId&quot;: &quot;b811212c-43e9-4103-b4be-5be63908dfe4&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -31,18 +49,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Docker.docker-compose.yml.pricing: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "Docker.eureka/Dockerfile MAVEN_BUILD.executor": "Run",
     "Docker.maps/Dockerfile.executor": "Run",
     "Docker.vehicles/Dockerfile.executor": "Run",
     "JUnit.PriceControllerTest.getPriceWithInvalidId.executor": "Run",
     "JUnit.PriceControllerTest.getPriceWithValidId.executor": "Run",
+    "JUnit.PricingServiceApplicationTests.executor": "Run",
     "Maven.boogle-maps [spring-boot:start].executor": "Run",
+    "Maven.eureka [clean,install].executor": "Run",
+    "Maven.eureka [clean].executor": "Run",
+    "Maven.eureka [install].executor": "Run",
+    "Maven.eureka [spring-boot:start].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.BoogleMapsApplication.executor": "Run",
     "Spring Boot.EurekaApplication.executor": "Run",
     "Spring Boot.PricingServiceApplication.executor": "Run",
@@ -63,6 +88,9 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn spring-boot:start" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -75,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BoogleMapsApplication">
+  <component name="RunManager" selected="Spring Boot.PricingServiceApplication">
     <configuration name="PriceControllerTest.getPriceWithInvalidId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pricing-service" />
       <extension name="coverage">
@@ -104,6 +132,21 @@
       <option name="MAIN_CLASS_NAME" value="com.udacity.pricing.controller.PriceControllerTest" />
       <option name="METHOD_NAME" value="getPriceWithValidId" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PricingServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pricing-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.udacity.pricing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.udacity.pricing" />
+      <option name="MAIN_CLASS_NAME" value="com.udacity.pricing.PricingServiceApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,46 +183,56 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="eureka/Dockerfile MAVEN_BUILD" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="imageTag" value="maven3.6-adoptopenjdk-14_MAVEN_BUILD" />
-          <option name="buildCliOptions" value="--target MAVEN_BUILD" />
-          <option name="sourceFilePath" value="eureka/Dockerfile" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="maps/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
+    <configuration name="docker-compose.yml.pricing: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="maps/Dockerfile" />
+          <option name="services">
+            <list>
+              <option value="pricing" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="vehicles/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="sourceFilePath" value="vehicles/Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.pricing: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="JUnit.PriceControllerTest.getPriceWithInvalidId" />
+      <item itemvalue="JUnit.PriceControllerTest.getPriceWithValidId" />
+      <item itemvalue="JUnit.PricingServiceApplicationTests" />
+      <item itemvalue="Spring Boot.BoogleMapsApplication" />
+      <item itemvalue="Spring Boot.VehiclesApiApplication" />
+      <item itemvalue="Spring Boot.PricingServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml.pricing: Compose Deployment" />
+        <item itemvalue="JUnit.PricingServiceApplicationTests" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="JUnit.PriceControllerTest.getPriceWithInvalidId" />
         <item itemvalue="JUnit.PriceControllerTest.getPriceWithValidId" />
-        <item itemvalue="Docker.eureka/Dockerfile MAVEN_BUILD" />
-        <item itemvalue="Docker.vehicles/Dockerfile" />
-        <item itemvalue="Docker.maps/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +256,8 @@
       <workItem from="1730033834273" duration="1582000" />
       <workItem from="1730035445859" duration="452000" />
       <workItem from="1730036999996" duration="4530000" />
+      <workItem from="1730214187831" duration="22000" />
+      <workItem from="1730390123824" duration="3102000" />
     </task>
     <servers />
   </component>

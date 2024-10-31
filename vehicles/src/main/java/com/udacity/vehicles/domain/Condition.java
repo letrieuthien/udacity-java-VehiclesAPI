@@ -10,7 +10,7 @@ public enum Condition {
 
     private final String code;
 
-    private Condition(String code) {
+    Condition(String code) {
         this.code = code;
     }
 
